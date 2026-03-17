@@ -1,0 +1,39 @@
+{
+    "onset": {
+        "Description": "Onset of the event, measured from the beginning of the acquisition.",
+        "Units": "s"
+    },
+    "duration": {
+        "Description": "Description of duration."
+    },
+    "stimulus_type": {
+        "Description": "Type of stimulus presented during the trial."
+    },
+    "image_id": {
+        "Description": "Description of image_id."
+    },
+    "repeat": {
+        "Description": "Description of repeat."
+    },
+    "stimulus_key": {
+        "Description": "Description of stimulus_key."
+    },
+    "fraction_occlusion": {
+        "Description": "Description of fraction_occlusion."
+    },
+    "sweep": {
+        "Description": "Description of sweep."
+    },
+    "nwb_table": {
+        "Description": "The name of the NWB table from which this event was extracted.",
+        "Levels": {
+            "trials": "The 'trials' table in the NWB file."
+        },
+        "HED": {
+            "trials": "Experimental-trial"
+        }
+    },
+    "trials": {
+        "Description": "experimental trials"
+    }
+}
