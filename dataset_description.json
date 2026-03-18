@@ -1,0 +1,23 @@
+{
+    "Name": "Allen Institute Openscope - Differential encoding of temporal context and expectation",
+    "BIDSVersion": "1.10",
+    "HEDVersion": "8.3.0",
+    "Description": "This dataset was collected for the Predictive Coding project, as part of the Allen Institute for Brain Science's OpenScope project. \n\nThe experimental design involved visual stimulation with sequences of 4 natural scene images (ABCD) that are repeated many times, with an occasional rare oddball image in the 4th place in the sequence (ABCX). There are 10 unique oddball images which are each shown 10 times during the recording session. The main sequence (ABCD) is shown thousands of times. In addition to the oddball blocks there are control conditions where the 4 main sequence images and 10 oddball images are shown either entirely randomly, or where pairwise image transitions are maintained, but the overall sequence is shuffled (example pairs: AB, BC, CD, CX, XA, etc). \n\nDuring this stimulus paradigm, 2-photon calcium imaging was used to record neural activity in three cortical areas (one area per recording session): the primary visual cortex, higher order visual area PM, and the retrosplenial cortex, across multiple cortical depths. During the recordings, mice were free to run on a circular disk and running speed was measured, along with pupil diameter and eye position. In each mouse, two of the three areas were imaged, and the third had a retrograde tracer (rAAV-mRuby2) injected to label inputs to that region. No differences in physiology were identified between retrogradely labeled and non-labeled neurons, thus this information was not included in the primary study of this dataset. \n\nResults are provided in the form of normalized calcium traces (dF/F) for all recorded neurons, along with running speed, pupil measurements, and the timing of all stimulus events. ",
+    "DatasetType": "raw",
+    "Authors": [
+        "Lecoq, Jerome A.",
+        "Garrett, Marina",
+        "Choi, Hannah",
+        "Mazzucato, Luca",
+        "Wyrick, David"
+    ],
+    "License": "CC-BY-4.0",
+    "GeneratedBy": [
+        {
+            "Name": "nwb2bids",
+            "Version": "0.9.1.dev27+gf0fb7253c",
+            "Description": "Tool to reorganize NWB files into a BIDS directory layout.",
+            "CodeURL": "https://github.com/con/nwb2bids"
+        }
+    ]
+}
